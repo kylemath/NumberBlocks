@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 230">
+  <!-- Ten - White/red 2x5 character with stars -->
+  <defs>
+    <linearGradient id="whiteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#eeeeff"/>
+    </linearGradient>
+  </defs>
+  <!-- 2x5 grid -->
+  <rect x="25" y="40" width="35" height="35" rx="4" fill="url(#whiteGrad)" stroke="#cc3333" stroke-width="3"/>
+  <rect x="60" y="40" width="35" height="35" rx="4" fill="url(#whiteGrad)" stroke="#cc3333" stroke-width="3"/>
+  <rect x="25" y="73" width="35" height="35" rx="4" fill="url(#whiteGrad)" stroke="#cc3333" stroke-width="3"/>
+  <rect x="60" y="73" width="35" height="35" rx="4" fill="url(#whiteGrad)" stroke="#cc3333" stroke-width="3"/>
+  <rect x="25" y="106" width="35" height="35" rx="4" fill="url(#whiteGrad)" stroke="#cc3333" stroke-width="3"/>
+  <rect x="60" y="106" width="35" height="35" rx="4" fill="url(#whiteGrad)" stroke="#cc3333" stroke-width="3"/>
+  <rect x="25" y="139" width="35" height="35" rx="4" fill="url(#whiteGrad)" stroke="#cc3333" stroke-width="3"/>
+  <rect x="60" y="139" width="35" height="35" rx="4" fill="url(#whiteGrad)" stroke="#cc3333" stroke-width="3"/>
+  <rect x="25" y="172" width="35" height="35" rx="4" fill="url(#whiteGrad)" stroke="#cc3333" stroke-width="3"/>
+  <rect x="60" y="172" width="35" height="35" rx="4" fill="url(#whiteGrad)" stroke="#cc3333" stroke-width="3"/>
+  <!-- Eyes with star sparkles -->
+  <ellipse cx="42" cy="62" rx="10" ry="12" fill="white" stroke="#cc3333" stroke-width="1"/>
+  <ellipse cx="78" cy="62" rx="10" ry="12" fill="white" stroke="#cc3333" stroke-width="1"/>
+  <circle cx="42" cy="65" r="5" fill="#cc3333"/>
+  <circle cx="78" cy="65" r="5" fill="#cc3333"/>
+  <circle cx="44" cy="62" r="2" fill="white"/>
+  <circle cx="80" cy="62" r="2" fill="white"/>
+  <!-- Star decorations on eyes -->
+  <polygon points="42,48 43,52 47,52 44,55 45,59 42,56 39,59 40,55 37,52 41,52" fill="#ffcc00"/>
+  <polygon points="78,48 79,52 83,52 80,55 81,59 78,56 75,59 76,55 73,52 77,52" fill="#ffcc00"/>
+  <!-- Mouth -->
+  <path d="M 50 190 Q 60 202 70 190" stroke="#cc3333" stroke-width="3" fill="none"/>
+  <!-- Number -->
+  <text x="60" y="28" text-anchor="middle" font-family="Arial Black" font-size="20" fill="#cc3333">10</text>
+  <!-- Crown/star hair -->
+  <polygon points="35,40 38,25 45,35 52,20 60,35 68,20 75,35 82,25 85,40" fill="#ff4444" stroke="#cc0000" stroke-width="2"/>
+  <!-- Gloved hands with stars -->
+  <ellipse cx="15" cy="120" rx="10" ry="8" fill="white" stroke="#cc3333" stroke-width="2"/>
+  <polygon points="15,115 16,118 19,118 17,120 18,123 15,121 12,123 13,120 11,118 14,118" fill="#ff4444"/>
+  <ellipse cx="105" cy="120" rx="10" ry="8" fill="white" stroke="#cc3333" stroke-width="2"/>
+  <polygon points="105,115 106,118 109,118 107,120 108,123 105,121 102,123 103,120 101,118 104,118" fill="#ff4444"/>
+  <!-- Legs -->
+  <rect x="35" y="207" width="12" height="18" rx="4" fill="#cc3333"/>
+  <rect x="73" y="207" width="12" height="18" rx="4" fill="#cc3333"/>
+</svg>

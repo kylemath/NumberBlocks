@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#1a0533">
+  <title>NumberBlocks Game - Fun Learning for Kids!</title>
+
+  <!-- Favicon using One character -->
+  <link rel="icon" type="image/svg+xml" href="sprites/one.svg">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Preload critical sprites -->
+  <link rel="preload" href="sprites/one.svg" as="image">
+  <link rel="preload" href="sprites/two.svg" as="image">
+  <link rel="preload" href="sprites/three.svg" as="image">
+</head>
+
+<body>
+  <!-- Start Screen -->
+  <div id="start-screen">
+    <h1>NumberBlocks!</h1>
+
+    <!-- Character parade -->
+    <div id="character-parade">
+      <img src="sprites/one.svg" alt="One">
+      <img src="sprites/two.svg" alt="Two">
+      <img src="sprites/three.svg" alt="Three">
+      <img src="sprites/four.svg" alt="Four">
+      <img src="sprites/five.svg" alt="Five">
+      <img src="sprites/six.svg" alt="Six">
+      <img src="sprites/seven.svg" alt="Seven">
+      <img src="sprites/eight.svg" alt="Eight">
+      <img src="sprites/nine.svg" alt="Nine">
+      <img src="sprites/ten.svg" alt="Ten">
+    </div>
+
+    <button id="play-btn">▶ PLAY!</button>
+  </div>
+
+  <!-- Main Game Container -->
+  <div id="game-container">
+    <!-- Top Bar -->
+    <div id="top-bar">
+      <div id="score-display">
+        <span class="star">⭐</span>
+        <span id="score">0</span>
+      </div>
+
+      <div id="level-display">
+        <span class="level-icon">🏆</span>
+        <span>Level </span>
+        <span id="level">1</span>
+      </div>
+
+      <div style="display: flex; gap: 8px;">
+        <button id="sound-btn" title="Toggle Voice">🔊</button>
+        <button id="music-btn" title="Toggle Music">🎵</button>
+        <button id="fullscreen-btn" title="Fullscreen">⛶</button>
+        <button id="exit-btn" title="Exit (Parents)">✕</button>
+      </div>
+    </div>
+
+    <!-- Next Block Preview -->
+    <div id="next-preview">
+      <span id="next-preview-label">Next:</span>
+      <div id="next-block"></div>
+    </div>
+
+    <!-- Game Board -->
+    <div id="game-board"></div>
+
+    <!-- Combo Display Overlay -->
+    <div id="combo-display"></div>
+
+    <!-- Control Buttons -->
+    <div id="controls">
+      <button id="left-btn" class="control-btn" aria-label="Move Left">◀</button>
+      <button id="right-btn" class="control-btn" aria-label="Move Right">▶</button>
+    </div>
+  </div>
+
+  <!-- Game Over Screen -->
+  <div id="game-over">
+    <h2>🌟 Great Job! 🌟</h2>
+    <div id="final-score">
+      You scored: <span id="final-score-value">0</span>
+    </div>
+    <button id="play-again-btn" class="control-btn"
+      style="width: auto; height: auto; padding: 20px 50px; font-size: 28px; border-radius: 50px; background: linear-gradient(145deg, #44dd44, #22aa22); box-shadow: 0 6px 0 #117711;">
+      🎮 Play Again!
+    </button>
+  </div>
+
+  <!-- Hidden Video for Background Music -->
+  <video id="background-music" hidden loop>
+    <source src="videoplayback.mp4" type="video/mp4">
+  </video>
+
+  <!-- Game Logic -->
+  <script src="js/game.js"></script>
+</body>
+
+</html>

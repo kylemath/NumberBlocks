@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 180">
+  <!-- Six - Purple 2x3 character with dice dots -->
+  <defs>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9966ff"/>
+      <stop offset="100%" style="stop-color:#6633cc"/>
+    </linearGradient>
+  </defs>
+  <!-- 2x3 grid -->
+  <rect x="20" y="30" width="40" height="40" rx="5" fill="url(#purpleGrad)" stroke="#4422aa" stroke-width="2"/>
+  <rect x="60" y="30" width="40" height="40" rx="5" fill="url(#purpleGrad)" stroke="#4422aa" stroke-width="2"/>
+  <rect x="20" y="68" width="40" height="40" rx="5" fill="url(#purpleGrad)" stroke="#4422aa" stroke-width="2"/>
+  <rect x="60" y="68" width="40" height="40" rx="5" fill="url(#purpleGrad)" stroke="#4422aa" stroke-width="2"/>
+  <rect x="20" y="106" width="40" height="40" rx="5" fill="url(#purpleGrad)" stroke="#4422aa" stroke-width="2"/>
+  <rect x="60" y="106" width="40" height="40" rx="5" fill="url(#purpleGrad)" stroke="#4422aa" stroke-width="2"/>
+  <!-- Dice dots -->
+  <circle cx="80" cy="50" r="6" fill="#ddccff"/>
+  <circle cx="80" cy="88" r="6" fill="#ddccff"/>
+  <circle cx="80" cy="126" r="6" fill="#ddccff"/>
+  <!-- Eyes -->
+  <ellipse cx="35" cy="55" rx="10" ry="12" fill="white"/>
+  <ellipse cx="55" cy="55" rx="10" ry="12" fill="white"/>
+  <circle cx="35" cy="58" r="5" fill="#333"/>
+  <circle cx="55" cy="58" r="5" fill="#333"/>
+  <circle cx="37" cy="55" r="2" fill="white"/>
+  <circle cx="57" cy="55" r="2" fill="white"/>
+  <!-- Mouth -->
+  <path d="M 35 130 Q 50 142 65 130" stroke="#4422aa" stroke-width="3" fill="none"/>
+  <!-- Number -->
+  <text x="60" y="22" text-anchor="middle" font-family="Arial Black" font-size="18" fill="#333">6</text>
+  <!-- Red hair tufts -->
+  <circle cx="30" cy="25" r="6" fill="#ff4444"/>
+  <circle cx="90" cy="25" r="6" fill="#ff4444"/>
+  <!-- Arms -->
+  <ellipse cx="12" cy="90" rx="8" ry="6" fill="#6633cc"/>
+  <ellipse cx="108" cy="90" rx="8" ry="6" fill="#6633cc"/>
+  <!-- Legs -->
+  <rect x="30" y="146" width="12" height="20" rx="4" fill="#6633cc"/>
+  <rect x="78" y="146" width="12" height="20" rx="4" fill="#6633cc"/>
+</svg>

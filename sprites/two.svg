@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140">
+  <!-- Two - Orange two-block character with glasses -->
+  <defs>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffaa44"/>
+      <stop offset="100%" style="stop-color:#ee8800"/>
+    </linearGradient>
+  </defs>
+  <!-- Main body - 2 blocks stacked -->
+  <rect x="20" y="30" width="60" height="50" rx="6" fill="url(#orangeGrad)" stroke="#cc6600" stroke-width="3"/>
+  <rect x="20" y="75" width="60" height="50" rx="6" fill="url(#orangeGrad)" stroke="#cc6600" stroke-width="3"/>
+  <!-- Eyes with glasses -->
+  <ellipse cx="35" cy="55" rx="12" ry="14" fill="white"/>
+  <ellipse cx="65" cy="55" rx="12" ry="14" fill="white"/>
+  <circle cx="35" cy="58" r="6" fill="#333"/>
+  <circle cx="65" cy="58" r="6" fill="#333"/>
+  <circle cx="37" cy="55" r="2" fill="white"/>
+  <circle cx="67" cy="55" r="2" fill="white"/>
+  <!-- Glasses frames -->
+  <circle cx="35" cy="55" r="16" fill="none" stroke="#663300" stroke-width="3"/>
+  <circle cx="65" cy="55" r="16" fill="none" stroke="#663300" stroke-width="3"/>
+  <line x1="51" y1="55" x2="49" y2="55" stroke="#663300" stroke-width="3"/>
+  <!-- Mouth -->
+  <path d="M 40 100 Q 50 110 60 100" stroke="#cc6600" stroke-width="3" fill="none"/>
+  <!-- Number -->
+  <text x="50" y="22" text-anchor="middle" font-family="Arial Black" font-size="18" fill="#333">2</text>
+  <!-- Arms -->
+  <ellipse cx="12" cy="70" rx="8" ry="6" fill="#ee8800"/>
+  <ellipse cx="88" cy="70" rx="8" ry="6" fill="#ee8800"/>
+  <!-- Legs -->
+  <rect x="30" y="125" width="12" height="15" rx="4" fill="#ee8800"/>
+  <rect x="58" y="125" width="12" height="15" rx="4" fill="#ee8800"/>
+</svg>

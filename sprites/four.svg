@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140">
+  <!-- Four - Green 2x2 square character -->
+  <defs>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#66dd66"/>
+      <stop offset="100%" style="stop-color:#339933"/>
+    </linearGradient>
+  </defs>
+  <!-- 2x2 grid of blocks -->
+  <rect x="20" y="30" width="40" height="40" rx="5" fill="url(#greenGrad)" stroke="#227722" stroke-width="2"/>
+  <rect x="60" y="30" width="40" height="40" rx="5" fill="url(#greenGrad)" stroke="#227722" stroke-width="2"/>
+  <rect x="20" y="70" width="40" height="40" rx="5" fill="url(#greenGrad)" stroke="#227722" stroke-width="2"/>
+  <rect x="60" y="70" width="40" height="40" rx="5" fill="url(#greenGrad)" stroke="#227722" stroke-width="2"/>
+  <!-- Eyes -->
+  <ellipse cx="45" cy="55" rx="12" ry="14" fill="white"/>
+  <ellipse cx="75" cy="55" rx="12" ry="14" fill="white"/>
+  <circle cx="45" cy="58" r="6" fill="#333"/>
+  <circle cx="75" cy="58" r="6" fill="#333"/>
+  <circle cx="47" cy="55" r="2" fill="white"/>
+  <circle cx="77" cy="55" r="2" fill="white"/>
+  <!-- Eyebrows -->
+  <rect x="35" y="40" width="20" height="5" rx="2" fill="#227722"/>
+  <rect x="65" y="40" width="20" height="5" rx="2" fill="#227722"/>
+  <!-- Mouth -->
+  <path d="M 45 95 Q 60 108 75 95" stroke="#227722" stroke-width="3" fill="none"/>
+  <!-- Number -->
+  <text x="60" y="22" text-anchor="middle" font-family="Arial Black" font-size="18" fill="#333">4</text>
+  <!-- Arms -->
+  <ellipse cx="12" cy="70" rx="8" ry="6" fill="#339933"/>
+  <ellipse cx="108" cy="70" rx="8" ry="6" fill="#339933"/>
+  <!-- Legs -->
+  <rect x="35" y="110" width="12" height="20" rx="4" fill="#339933"/>
+  <rect x="73" y="110" width="12" height="20" rx="4" fill="#339933"/>
+</svg>
