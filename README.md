@@ -1,5 +1,7 @@
 # 🧱 NumberBlocks Game
 
+🚀 **[Live Demo](https://kylemath.github.io/NumberBlocks)** 🚀
+
 A fun, toddler-friendly Tetris-style game featuring the beloved NumberBlocks characters! Watch as number friends fall from the sky and combine to make bigger numbers!
 
 ## 🎮 How to Play
