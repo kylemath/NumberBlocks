@@ -1,11 +1,11 @@
 {
   "id": "NumberBlocks",
   "title": "NumberBlocks",
-  "oneLiner": "NumberBlocks Kids Game educational use",
+  "oneLiner": "Number blocks educations kids game",
   "demoUrl": "https://kylemath.github.io/NumberBlocks",
   "screenshot": "https://raw.githubusercontent.com/kylemath/NumberBlocks/main/screenshot.png",
   "kind": "project",
-  "categories": ["game", "kids", "show"],
-  "tags": ["game", "kids", "show"],
+  "categories": ["game", "kids", "numbers"],
+  "tags": ["game", "kids", "numbers"],
   "status": "published"
 }
